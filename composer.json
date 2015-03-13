@@ -1,5 +1,5 @@
 {
-	"name": "whatknight/laravel-resque-ex",
+	"name": "deedod/laravel-resque-ex",
 	"description": "Laravel Resque connector for Queue.",
 	"keywords": ["laravel", "resque", "queue"],
 	"license": "MIT",
@@ -8,14 +8,18 @@
 			"name": "Andrew Ellis",
 			"email": "awellis@me.com"
 		},
-        {
-            "name": "Matt Thompson",
-            "email": "whatknight@ymail.com"
-        }
+	        {
+	            "name": "Matt Thompson",
+	            "email": "whatknight@ymail.com"
+	        },
+	        {
+	            "name": "David Cook",
+	            "email": "dcook@deedod.com"
+	        }
 	],
 	"require": {
 		"php": ">=5.4.0",
-        "kamisama/php-resque-ex": "1.2.7"
+        	"kamisama/php-resque-ex": "1.2.7"
 	},
 	"suggest": {
 		"kamisama/php-resque-scheduler": "Enables the use of the ResqueScheduler functionality."
