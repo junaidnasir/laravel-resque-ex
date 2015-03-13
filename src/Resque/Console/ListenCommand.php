@@ -69,8 +69,13 @@ class ListenCommand extends Command {
 			$config['database'] = 0;
 		}
 
+		if (!isset($config['prefix']))
+		{
+			$config['prefix'] = 'resque';
+		}
+
 		// Connect to redis
-		Resque::setBackend($config['host'].':'.$config['port'], $config['database']);
+		Resque::setBackend($config['host'].':'.$config['port'], $config['database'], $config['prefix']);
 
 		// Launch worker
 		$queues = explode(',', $queue);
