@@ -14,7 +14,7 @@ This is a fork of awillis13's [laravel-resque](https://github.com/awellis13/lara
 Add the following to your project's `composer.json`:
 
     "require": {
-    	"whatknight/laravel-resque": "1.0.0"
+    	"deedod/laravel-resque": "1.0.0"
     }
 
 Now you need to run the following to install the package:
