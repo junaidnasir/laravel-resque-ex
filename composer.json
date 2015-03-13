@@ -8,14 +8,14 @@
 			"name": "Andrew Ellis",
 			"email": "awellis@me.com"
 		},
-	        {
-	            "name": "Matt Thompson",
-	            "email": "whatknight@ymail.com"
-	        },
-	        {
-	            "name": "David Cook",
-	            "email": "dcook@deedod.com"
-	        }
+        {
+            "name": "Matt Thompson",
+            "email": "whatknight@ymail.com"
+        },
+        {
+            "name": "David Cook",
+            "email": "dcook@deedod.com"
+        }
 	],
 	"require": {
 		"php": ">=5.4.0",
