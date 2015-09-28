@@ -46,7 +46,7 @@ class ResqueConnector implements ConnectorInterface {
 			$config['prefix'] = 'resque';
 		}
 
-		Resque::setBackend($config['host'].':'.$config['port'], $config['database'], $config['prefix']);
+		Resque::setBackend($config['host'].':'.$config['port'], $config['database'], $config['prefix'], (isset($config['password']) ? $config['password'] : null));
 
 		return new ResqueQueue;
 	}
