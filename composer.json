@@ -1,5 +1,5 @@
 {
-	"name": "deedod/laravel-resque-ex",
+	"name": "junaidnasir/laravel-resque-ex",
 	"description": "Laravel Resque connector for Queue.",
 	"keywords": ["laravel", "resque", "queue"],
 	"license": "MIT",
@@ -15,10 +15,15 @@
         {
             "name": "David Cook",
             "email": "dcook@deedod.com"
+        },
+        {
+            "name": "Junaid Nasir",
+            "email": "contact@junaidnasir.com"
         }
 	],
 	"require": {
 		"php": ">=5.4.0",
+		"chrisboulton/php-resque": "^1.2",
         	"kamisama/php-resque-ex": "1.*"
 	},
 	"suggest": {
