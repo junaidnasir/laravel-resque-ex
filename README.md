@@ -2,9 +2,9 @@
 
 This package allows you to connect to Resque when using `Queue`.
 
-This is a fork of awillis13's [laravel-resque](https://github.com/awellis13/laravel-resque) using kamisama's fork of chrisboulton's php-resque.
+This is a fork of deedod's [laravel-resque-ex](https://github.com/deedod/laravel-resque-ex).
 
-
+This fork fixes the problem of queues overwriting (all queues are overwrited when using resque service providor.
 
 ## Requirements
 - PHP 5.4+
