@@ -2,7 +2,7 @@
 
 This package allows you to connect to Resque when using `Queue`.
 
-This is a fork of deedod's [laravel-resque-ex](https://github.com/deedod/laravel-resque-ex).
+fixes some problems of deedod's [laravel-resque-ex](https://github.com/deedod/laravel-resque-ex). (Resque queue was overwriting other queues)
 
 This fork fixes the problem of queues overwriting (all queues are overwrited when using resque service providor.
 
@@ -14,7 +14,7 @@ This fork fixes the problem of queues overwriting (all queues are overwrited whe
 Add the following to your project's `composer.json`:
 
     "require": {
-    	"deedod/laravel-resque-ex": "1.0.*"
+    	"junaidnasir/laravel-resque-ex": "^1.0"
     }
 
 Now you need to run the following to install the package:
